@@ -1,0 +1,17 @@
+{
+  "garment_layer": "native body0 separate from body1, cape extends beyond body silhouette to an ankle-level hem",
+  "cape_and_body_timing": "matching frame delays, positions, scales and rotations",
+  "native_body_footprint": "18x13 instead of 18x20; 30 gait alpha masks exactly match reference geometry",
+  "standing_arm_placement": "native short palms and cuffs, original gait positions; cape does not cover palm pixels",
+  "v139_final_corpse": "pixel-identical",
+  "xml_anm2_parse": "passed",
+  "animation_count": 38,
+  "local_frame_crop_checks": 560,
+  "front_side_face_pixel_equality": "passed; original back hood restored except center hair wedge",
+  "root_eye_nulls_triggers_animation_lengths": "unchanged; head and item anchors unchanged from v1.41",
+  "pickup_hurt_independent_head_scale": "passed",
+  "lua_5_4_syntax": "4 files passed",
+  "adapter_mock": "init, legacy upgrade, no frame resets, normal transition, foreign animation preservation, four-way aim stationary/moving, overlay retention and special animation exclusion passed",
+  "regular_hunter_gameplay_and_resources": "unchanged",
+  "in_game_validation": "NOT RUN: game is on user Windows machine"
+}
