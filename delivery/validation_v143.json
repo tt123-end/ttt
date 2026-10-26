@@ -1,0 +1,17 @@
+{
+  "layer_order": "body (1), intact cape/body0 (2), foreground arms/body1 (3)",
+  "hem": "6 atlas pixels / 1.5 native units shorter; ends at atlas y=94",
+  "torso": "ivory bandage chest/waist; no green pixels in body or arm atlas",
+  "back_cloak": "all 10 back gait frames have opaque interior; no hand windows",
+  "native_geometry": "front/side body+arm union equals reference gait; back native palms retained",
+  "xml_anm2_parse": "passed",
+  "animation_count": 38,
+  "local_frame_crop_checks": 679,
+  "face_head_and_item_anchors": "unchanged",
+  "three_layer_timing": "matching frame position/scale/rotation/delay",
+  "death_pose": "pixel-identical to v1.42",
+  "lua_5_4_syntax": "4 files passed",
+  "adapter_mock": "four-way aim stationary/moving, special animation exclusion, migration, normal transition and overlay retention passed",
+  "regular_hunter_gameplay_and_resources": "unchanged",
+  "in_game_validation": "NOT RUN: game is on user Windows machine"
+}
