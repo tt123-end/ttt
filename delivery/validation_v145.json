@@ -1,0 +1,26 @@
+{
+  "xml_anm2_parse": "passed",
+  "animation_count": 38,
+  "local_frame_crop_checks": 679,
+  "front_art": "front idle/blink and hurt head pixels unchanged",
+  "head_height_atlas_pixels": [
+    103,
+    104,
+    103,
+    103,
+    103,
+    103
+  ],
+  "head_transform": "all four directions 33% X/Y scale, same pivot and YPosition; side/back visible art heights normalized",
+  "body": "short torso and independent 18-atlas-pixel calves; standing center gap preserved",
+  "arms": "native forearms narrowed to approximately62% atlas width, shoulder positions synchronized with torso",
+  "front_cloak": "visible broad green panels on both sides; rounded inward-curving hem",
+  "side_cloak": "behind torso only; x>=41 fully transparent",
+  "back_cloak": "continuous opaque interior without hand windows",
+  "animation_events_timing_roots_and_attachments": "unchanged from v1.44",
+  "visual_size_and_collision": "120% visual size retained; no entity Size, SizeMulti or SpriteScale changes",
+  "lua_syntax": "all4 Lua files passed",
+  "adapter_mock": "v1.44/v1.36 migration, normal transition, foreign animation protection, four-way aiming, overlay retention and collision sentinels passed",
+  "regular_hunter": "gameplay/rendering and original assets unchanged",
+  "in_game_validation": "NOT RUN: previews/GIFs are offline ANM2 compositions"
+}
