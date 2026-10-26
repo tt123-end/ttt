@@ -1,0 +1,17 @@
+{
+  "xml_anm2_parse": "passed",
+  "animation_count": 38,
+  "local_frame_crop_checks": 679,
+  "body_and_arm_geometry": "native frame alpha retained; torso/cape/foreground arms share foot pivot and exactly 75% Y transform",
+  "visual_size": "all native layer X/Y scales and positions multiplied by 1.2; no Entity Size, SizeMulti, SpriteScale or collision edits",
+  "belly": "front belly ROI >85% bare skin; generated ivory bandages retained at upper chest",
+  "side_cape": "opaque pixels restricted to x<40 in cell; front torso and foreground arm not covered",
+  "back_cape": "continuous opaque interior and monotonically narrowing silhouette at shoulder/middle/hem",
+  "cape_hem": "ends above ankles; atlas y<=91",
+  "head_art": "pixel-identical approved v1.42 sheet; head/raised hands and attachments lowered together",
+  "timing_events_and_roots": "38 animation names, loop flags, frame delays, events and root motion retained",
+  "lua_5_4_syntax": "all 4 Lua files passed",
+  "adapter_mock": "migration from v1.43 and v1.36, normal transition, foreign animations, stationary/moving four-way aim, head overlay retention and collision sentinels passed",
+  "regular_hunter": "all gameplay below version comment, renderer and resources unchanged",
+  "in_game_validation": "NOT RUN: Isaac is on user Windows machine"
+}
