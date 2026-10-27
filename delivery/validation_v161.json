@@ -1,0 +1,22 @@
+{
+  "values": {
+    "damage_multiplier": 1.2,
+    "projectile_damage_multiplier": 4,
+    "initial_panel_damage": 4.2,
+    "initial_projectile_damage": 16.8,
+    "DeadEye_max_projectile_damage": 33.6,
+    "range": 12,
+    "initial_tears": 0.48,
+    "initial_max_tears": 1,
+    "minimum_negative_max_tears_limit": 0.6
+  },
+  "tears_mechanism": "native cap sampled with temporary Wire Coat Hanger copies (ordinary tears ups), raw delay captured before character cache; originals preserved; formula uses remaining native delay to cap, not guessed weapon multiplier",
+  "negative_cap_curve": "native cap r<=5: C(r)=0.6+0.4*r/5; r>5: C(r)=r/5; actual rate30/(30/C+6.5*(nativeDelay-nativeCapDelay)) for ordinary rates",
+  "tests": "210 affine negative-delay/current/cap monotonic cases; HUD-derived old0.67/0.87 regression; positive uniform multipliers; owned/temporary item cleanup, failure-after-add cleanup, periodic dynamic effects, room/continue/co-op isolation, no probe feedback loop",
+  "actual_uploaded_StatsPlus": "original computeTearCap/display executed with simulated game; /0.66, MAX, UNKNOWN; actual validators/Middleware x1.20 and x0.20",
+  "actual_uploaded_EID": "bilingual 400% character info and Item Reminder dispatch passed",
+  "combat": "initial4.2 panel ->16.8 shot; unchanged reload, x1.5 size, pseudo piercing, excess damage, vulnerability and input/HUD regression passed",
+  "preserved_old_files": 166,
+  "lua_syntax": "11 Lua files passed",
+  "limitations": "No Isaac runtime. Native engine rules sampled only in production, locally simulated contracts. Rock Bottom disables probing to avoid permanently raising stored stats; retain last measured cap or default, Stats+ keeps UNKNOWN. Dynamic non-inventory effects may refresh after90frames. Third-party callbacks observing temporary ordinary tears-up additions can run, as with Stats+ native probe."
+}

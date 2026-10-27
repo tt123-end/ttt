@@ -1,0 +1,12 @@
+{
+  "execution_environment": "available",
+  "workspace_and_tmp_read_write_delete": "PASS",
+  "python": "3.12.14",
+  "lua_shared_library": "liblua5.4.so.0 available",
+  "previous_v160_zip_crc": "PASS",
+  "github_read": "PASS; remote hunter-mod-v1.60 matches8c1472c407a9a49cdb9b662a37b8007b6a554668",
+  "previous_work_preserved": true,
+  "environment_draft": "revision4; one repository, no install/start scripts, no pending secrets or runtime requirements",
+  "configuration_changes": "None required by successful checks",
+  "previous_startup_cancellation_root_cause": "Not established; no platform backend logs available"
+}
