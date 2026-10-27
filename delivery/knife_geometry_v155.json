@@ -1,0 +1,21 @@
+{
+  "reference_cell": [
+    256,
+    64
+  ],
+  "reference_visible_bbox": [
+    88,
+    26,
+    167,
+    44
+  ],
+  "new_cell": [
+    1024,
+    256
+  ],
+  "source_density": 4,
+  "anm2_scale_percent": 6.25,
+  "old_anm2_scale_percent": 25,
+  "world_size_multiplier": 1.5,
+  "art": "new sharp steel throwing knife, original visible dimensions retained before explicit x1.5"
+}

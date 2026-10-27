@@ -1,0 +1,15 @@
+{
+  "scope": "Tainted Hunter only; regular Hunter mechanics and existing character visuals unchanged",
+  "starting_bombs": 0,
+  "stats_loadout": "v1.54 stats, Dead Eye and reversed Emperor unchanged; actual Stats+ validators and middleware tests passed again",
+  "projectile": "new HD knife at 4x original source density, matched ANM2 world bounds; visual scale x1.5 and initial hitbox radius x1.5; native size modifiers retained",
+  "damage": "6 x player panel Damage once on fire; initial 31.5; no damage reset in tear updates",
+  "excess_damage": "native TEAR_PERSISTENT (documented Polyphemus behavior), no manually added unlimited piercing; simulated native residual damage values remain unchanged by mod updates",
+  "reload": "one interval = max(1,ceil(MaxFireDelay+1)) ticks; initial 50; absolute deadline, no extra native FireDelay assignment; same-volley/projectile follow-ups do not extend deadline",
+  "reload_UI": "exact same chargebar.anm2/png as regular Hunter; one-knife ammo icon and native Charged flash",
+  "incoming_damage": "x2 during active interval only, half-heart1->2 and full-heart2->4 units; late vanilla TakeDamage reissue with recursion guard; original flags/source/countdown retained; shield, cooldown, prior cancellation and fake-damage cases tested",
+  "isolation": "normal/Lost/familiar/dead player shooting, per-player reload states, paused and hidden render, missing-asset fallback checked",
+  "preserved_old_files": 152,
+  "lua_syntax": "7 Lua files passed",
+  "in_game_validation": "NOT RUN. Local Lua engine-contract mocks, actual uploaded Stats+ validators/middleware, XML/ANM2/file checks only; native TEAR_PERSISTENT damage processing is delegated to the game."
+}
