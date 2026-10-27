@@ -1,0 +1,11 @@
+{
+  "change_scope": "26 head keyframes in Pickup/LiftItem/HideItem/UseItem/PickupWalkDown only; two new upward expression cells in unused atlas space",
+  "approved_body_arms_legs": "ALL original image files and ALL non-head animation tracks byte/structure identical to v1.51",
+  "ordinary_head_back_cloak": "original referenced head pixels unchanged; original cape image files and tracks unchanged",
+  "frame_timing_scale_pivots_item_anchors": "all unchanged; head XCrop and YPosition only vary",
+  "unchanged_action_frames_RGBA": 702,
+  "local_frame_crop_checks": 565,
+  "lua_syntax": "4 files passed",
+  "adapter_mock": "v1.51 migration, normal transition, playback, overlays, four-way shooting, special/foreign/death protection, collision sentinels passed",
+  "in_game_validation": "NOT RUN. Offline atlas/ANM2 comparison, image composition and Lua mocks only."
+}
