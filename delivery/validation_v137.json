@@ -1,0 +1,12 @@
+{
+  "xml_anm2_parse": "passed",
+  "animation_count": 38,
+  "local_frame_crop_checks": 441,
+  "directional_face_pixel_equality": "passed",
+  "root_item_eye_nulls_triggers_and_animation_lengths": "unchanged",
+  "pickup_hurt_independent_head_scale": "passed",
+  "lua_5_4_syntax": "4 files passed",
+  "adapter_mock": "init, legacy upgrade, no frame resets, normal transition and foreign animation preservation passed",
+  "regular_hunter_gameplay_and_resources": "unchanged",
+  "in_game_validation": "NOT RUN: game is on user Windows machine"
+}

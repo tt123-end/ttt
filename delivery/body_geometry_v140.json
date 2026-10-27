@@ -1,0 +1,542 @@
+[
+  {
+    "animation": "WalkDown",
+    "frame": 0,
+    "atlas_xy": [
+      0,
+      0
+    ],
+    "source_crop": [
+      0,
+      32
+    ],
+    "native_bbox": [
+      7,
+      12,
+      25,
+      25
+    ]
+  },
+  {
+    "animation": "WalkDown",
+    "frame": 1,
+    "atlas_xy": [
+      128,
+      0
+    ],
+    "source_crop": [
+      32,
+      32
+    ],
+    "native_bbox": [
+      7,
+      12,
+      25,
+      25
+    ]
+  },
+  {
+    "animation": "WalkDown",
+    "frame": 2,
+    "atlas_xy": [
+      256,
+      0
+    ],
+    "source_crop": [
+      64,
+      32
+    ],
+    "native_bbox": [
+      8,
+      12,
+      26,
+      25
+    ]
+  },
+  {
+    "animation": "WalkDown",
+    "frame": 3,
+    "atlas_xy": [
+      384,
+      0
+    ],
+    "source_crop": [
+      96,
+      32
+    ],
+    "native_bbox": [
+      7,
+      12,
+      25,
+      27
+    ]
+  },
+  {
+    "animation": "WalkDown",
+    "frame": 4,
+    "atlas_xy": [
+      512,
+      0
+    ],
+    "source_crop": [
+      128,
+      32
+    ],
+    "native_bbox": [
+      7,
+      12,
+      25,
+      26
+    ]
+  },
+  {
+    "animation": "WalkDown",
+    "frame": 5,
+    "atlas_xy": [
+      640,
+      0
+    ],
+    "source_crop": [
+      160,
+      32
+    ],
+    "native_bbox": [
+      7,
+      12,
+      25,
+      25
+    ]
+  },
+  {
+    "animation": "WalkDown",
+    "frame": 6,
+    "atlas_xy": [
+      768,
+      0
+    ],
+    "source_crop": [
+      192,
+      32
+    ],
+    "native_bbox": [
+      7,
+      12,
+      25,
+      25
+    ]
+  },
+  {
+    "animation": "WalkDown",
+    "frame": 7,
+    "atlas_xy": [
+      896,
+      0
+    ],
+    "source_crop": [
+      224,
+      32
+    ],
+    "native_bbox": [
+      6,
+      12,
+      24,
+      25
+    ]
+  },
+  {
+    "animation": "WalkDown",
+    "frame": 8,
+    "atlas_xy": [
+      0,
+      128
+    ],
+    "source_crop": [
+      192,
+      0
+    ],
+    "native_bbox": [
+      7,
+      12,
+      25,
+      27
+    ]
+  },
+  {
+    "animation": "WalkDown",
+    "frame": 9,
+    "atlas_xy": [
+      128,
+      128
+    ],
+    "source_crop": [
+      224,
+      0
+    ],
+    "native_bbox": [
+      7,
+      12,
+      25,
+      26
+    ]
+  },
+  {
+    "animation": "WalkRight",
+    "frame": 0,
+    "atlas_xy": [
+      0,
+      256
+    ],
+    "source_crop": [
+      0,
+      64
+    ],
+    "native_bbox": [
+      8,
+      12,
+      24,
+      25
+    ]
+  },
+  {
+    "animation": "WalkRight",
+    "frame": 1,
+    "atlas_xy": [
+      128,
+      256
+    ],
+    "source_crop": [
+      32,
+      64
+    ],
+    "native_bbox": [
+      8,
+      12,
+      23,
+      25
+    ]
+  },
+  {
+    "animation": "WalkRight",
+    "frame": 2,
+    "atlas_xy": [
+      256,
+      256
+    ],
+    "source_crop": [
+      64,
+      64
+    ],
+    "native_bbox": [
+      7,
+      12,
+      23,
+      25
+    ]
+  },
+  {
+    "animation": "WalkRight",
+    "frame": 3,
+    "atlas_xy": [
+      384,
+      256
+    ],
+    "source_crop": [
+      96,
+      64
+    ],
+    "native_bbox": [
+      7,
+      11,
+      24,
+      25
+    ]
+  },
+  {
+    "animation": "WalkRight",
+    "frame": 4,
+    "atlas_xy": [
+      512,
+      256
+    ],
+    "source_crop": [
+      128,
+      64
+    ],
+    "native_bbox": [
+      7,
+      12,
+      24,
+      25
+    ]
+  },
+  {
+    "animation": "WalkRight",
+    "frame": 5,
+    "atlas_xy": [
+      640,
+      256
+    ],
+    "source_crop": [
+      160,
+      64
+    ],
+    "native_bbox": [
+      8,
+      12,
+      23,
+      25
+    ]
+  },
+  {
+    "animation": "WalkRight",
+    "frame": 6,
+    "atlas_xy": [
+      768,
+      256
+    ],
+    "source_crop": [
+      192,
+      64
+    ],
+    "native_bbox": [
+      8,
+      12,
+      23,
+      25
+    ]
+  },
+  {
+    "animation": "WalkRight",
+    "frame": 7,
+    "atlas_xy": [
+      896,
+      256
+    ],
+    "source_crop": [
+      224,
+      64
+    ],
+    "native_bbox": [
+      7,
+      12,
+      25,
+      25
+    ]
+  },
+  {
+    "animation": "WalkRight",
+    "frame": 8,
+    "atlas_xy": [
+      0,
+      384
+    ],
+    "source_crop": [
+      0,
+      96
+    ],
+    "native_bbox": [
+      7,
+      11,
+      25,
+      25
+    ]
+  },
+  {
+    "animation": "WalkRight",
+    "frame": 9,
+    "atlas_xy": [
+      128,
+      384
+    ],
+    "source_crop": [
+      32,
+      96
+    ],
+    "native_bbox": [
+      7,
+      12,
+      25,
+      25
+    ]
+  },
+  {
+    "animation": "WalkUp",
+    "frame": 0,
+    "atlas_xy": [
+      0,
+      512
+    ],
+    "source_crop": [
+      256,
+      208
+    ],
+    "native_bbox": [
+      7,
+      12,
+      25,
+      25
+    ]
+  },
+  {
+    "animation": "WalkUp",
+    "frame": 1,
+    "atlas_xy": [
+      128,
+      512
+    ],
+    "source_crop": [
+      288,
+      208
+    ],
+    "native_bbox": [
+      7,
+      12,
+      25,
+      25
+    ]
+  },
+  {
+    "animation": "WalkUp",
+    "frame": 2,
+    "atlas_xy": [
+      256,
+      512
+    ],
+    "source_crop": [
+      320,
+      208
+    ],
+    "native_bbox": [
+      8,
+      12,
+      26,
+      25
+    ]
+  },
+  {
+    "animation": "WalkUp",
+    "frame": 3,
+    "atlas_xy": [
+      384,
+      512
+    ],
+    "source_crop": [
+      352,
+      208
+    ],
+    "native_bbox": [
+      7,
+      12,
+      25,
+      27
+    ]
+  },
+  {
+    "animation": "WalkUp",
+    "frame": 4,
+    "atlas_xy": [
+      512,
+      512
+    ],
+    "source_crop": [
+      384,
+      208
+    ],
+    "native_bbox": [
+      7,
+      12,
+      25,
+      26
+    ]
+  },
+  {
+    "animation": "WalkUp",
+    "frame": 5,
+    "atlas_xy": [
+      640,
+      512
+    ],
+    "source_crop": [
+      416,
+      208
+    ],
+    "native_bbox": [
+      7,
+      12,
+      25,
+      25
+    ]
+  },
+  {
+    "animation": "WalkUp",
+    "frame": 6,
+    "atlas_xy": [
+      768,
+      512
+    ],
+    "source_crop": [
+      448,
+      208
+    ],
+    "native_bbox": [
+      7,
+      12,
+      25,
+      25
+    ]
+  },
+  {
+    "animation": "WalkUp",
+    "frame": 7,
+    "atlas_xy": [
+      896,
+      512
+    ],
+    "source_crop": [
+      480,
+      208
+    ],
+    "native_bbox": [
+      6,
+      12,
+      24,
+      25
+    ]
+  },
+  {
+    "animation": "WalkUp",
+    "frame": 8,
+    "atlas_xy": [
+      0,
+      640
+    ],
+    "source_crop": [
+      256,
+      240
+    ],
+    "native_bbox": [
+      7,
+      12,
+      25,
+      27
+    ]
+  },
+  {
+    "animation": "WalkUp",
+    "frame": 9,
+    "atlas_xy": [
+      128,
+      640
+    ],
+    "source_crop": [
+      288,
+      240
+    ],
+    "native_bbox": [
+      7,
+      12,
+      25,
+      26
+    ]
+  }
+]

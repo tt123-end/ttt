@@ -1,0 +1,17 @@
+{
+  "reference_anatomy": "regular Marisa original character_003_cain.png; actual internal ink AND colored body-part masks restored, not only alpha",
+  "reference_front_walk_cells_checked": 10,
+  "reference_ink_HD_pixels_exact": 14288,
+  "reference_filled_HD_pixels_exact": 13952,
+  "waist_arms_and_legs": "original waist at native y21, original arm/torso separators and crotch ink; torso material cannot fill legs",
+  "material": "approved v1.50 crossed bandage RGB and skin/cloth swatches clipped into original torso/cuff/palm/leg regions; generated anatomical contours excluded",
+  "all_frame_geometry": "all38 animations, frame crops/pivots/scales/positions/delays/roots/nulls/events unchanged",
+  "front_world_alpha": "20 frames unchanged",
+  "side_back_RGBA": "60 frames identical",
+  "held_special_actions": "20 held-walk frames and42 pickup frames identical to v1.50",
+  "head_capes_death_gameplay_collision": "unchanged",
+  "local_frame_crop_checks": 565,
+  "lua_syntax": "4 files passed",
+  "adapter_mock": "v1.50 migration, transparent fallback, normal transition, four-way aim, special/foreign protection, overlay/collision sentinels passed",
+  "in_game_validation": "NOT RUN: reference image/mask checks, fixed-canvas offline renders and Lua mocks only"
+}

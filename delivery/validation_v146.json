@@ -1,0 +1,18 @@
+{
+  "reference": "REGULAR Marisa Cain character_003_cain.png + original Lucky Foot dress overlay; not tainted body",
+  "reference_PNGs": "body and dress byte-identical to user-provided Mod",
+  "reference_body_and_dress_frames": 120,
+  "geometry": "original integrated torso/arms/legs, native pivots/crops/delays and positions; only uniform120% visual scale",
+  "reference_hand": "original lower accessory pixels extracted without recoloring, source head-costume positions retained",
+  "generated_limb_reassembly": "removed from active ordinary/held body and body1 tracks",
+  "cloak": "native background track behind the intact reference body",
+  "Hunter_head": "approved head PNG unchanged; neck anchor moved1.89 units upward to reference chin line",
+  "animation_names_frame_counts_roots_events": "38 retained",
+  "local_frame_crop_checks": 569,
+  "lua_syntax": "4 files passed",
+  "adapter_mock": "v1.45/v1.36 migration, normal transition, four-way aim, special animation protection, overlay and collision sentinels passed",
+  "gameplay_and_regular_Hunter": "unchanged; no item46 or stat changes",
+  "death": "existing complete Hunter death sheet preserved",
+  "in_game_validation": "NOT RUN: offline resource composition and mocks only",
+  "reference_body_raster_comparison": "front/side/back body-only composites pixel-identical at same scale; head and cloak hidden for proof"
+}

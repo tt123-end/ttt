@@ -1,0 +1,66 @@
+{
+  "values": {
+    "tears_multiplier": 0.2,
+    "damage_multiplier": 1,
+    "projectile_panel_damage_multiplier": 8,
+    "initial_tears": 0.48,
+    "initial_panel_damage": 3.5,
+    "initial_projectile_damage": 28,
+    "initial_MaxFireDelay": 61.5,
+    "initial_reload_ticks_ceil_interval": 63
+  },
+  "penalty_curve": "C(M)=0.6+0.4*M; M is combined supported vanilla negative tears multiplier, M=1 no penalty; M->0 gives C->0.6",
+  "calibration": "continuous piecewise rate calibration: native starting30/11 ->2.4 pre-character; native ordinary cap5 ->5 pre-character; characterx0.2 gives initial0.48 and cap1.0",
+  "implementation": "recover incoming rate before known negative multipliers; calibrate; x0.2; replace native penalties with C(M)/1.0; never hard-clamp actual rate to C or0.6",
+  "vanilla_multiplier_rules": "based on regular Hunter; Dr. Fetus corrected to52; Technology2 and Haemolacria added; temporary collectible effects checked; C Section does not erase separate Mutant Spider penalty",
+  "ordinary_cap_inventory_combinations_checked": 4096,
+  "limit_sweep": "1201 logarithmic samples down to M=1e-12; monotone and >=0.6; continuity, item removal and above-cap increases checked",
+  "stats_plus": "same addon/provider ids and saved selection retained; character display x0.20 and damage middleware x1.00 validated with uploaded Stats+ actual validators/Middleware class",
+  "combat_regression": "updated x8 damage plus original one-shot reload, flags/residual damage, x1.5 size, circle/input, vulnerability, shields/immunity/co-op and fallback checks passed",
+  "preserved_files": 155,
+  "visuals_loadout_regular_hunter": "all existing PNG/ANM2, visual recovery, start items/card/bombs/health, regular Hunter code below version comment unchanged",
+  "lua_syntax": "8 Lua files passed",
+  "curve_examples": [
+    {
+      "native_negative_multiplier": 1,
+      "ordinary_soft_cap": 1.0
+    },
+    {
+      "native_negative_multiplier": 0.66,
+      "ordinary_soft_cap": 0.864
+    },
+    {
+      "native_negative_multiplier": 0.51,
+      "ordinary_soft_cap": 0.804
+    },
+    {
+      "native_negative_multiplier": 0.5,
+      "ordinary_soft_cap": 0.8
+    },
+    {
+      "native_negative_multiplier": 0.42,
+      "ordinary_soft_cap": 0.768
+    },
+    {
+      "native_negative_multiplier": 0.3333333333333333,
+      "ordinary_soft_cap": 0.733333333
+    },
+    {
+      "native_negative_multiplier": 0.1,
+      "ordinary_soft_cap": 0.64
+    },
+    {
+      "native_negative_multiplier": 0.01,
+      "ordinary_soft_cap": 0.604
+    },
+    {
+      "native_negative_multiplier": 0.001,
+      "ordinary_soft_cap": 0.6004
+    },
+    {
+      "native_negative_multiplier": 0,
+      "ordinary_soft_cap": 0.6
+    }
+  ],
+  "in_game_validation": "NOT RUN. Local engine-contract mocks, actual uploaded Stats+ validation/middleware and XML/file checks; item identities/basic factors checked against IsaacDocs and EID Repentance descriptions, priority/stack behavior needs in-game verification."
+}

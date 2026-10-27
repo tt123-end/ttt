@@ -1,0 +1,17 @@
+{
+  "scope": "Tainted Hunter Brimstone + Haemolacria missing negative multiplier compensation",
+  "root_cause": "Brimstone branch used1/3 and discarded the Haemolacria penalty because Haemolacria shared an arc flag with Ipecac",
+  "combined_multiplier": 0.1111111111111111,
+  "combined_ordinary_soft_cap": 0.6444444444444445,
+  "unchanged_damage_multiplier": 0.75,
+  "unchanged_initial_tears": 0.48,
+  "combined_starting_tears_without_tears_ups": 0.30933333333333335,
+  "independent_fixed_delay_fixtures": 9,
+  "old_combo_fixture_fails": true,
+  "fixture_origin": "Explicit native-model delay fixtures; independently specified from getNegativeMultiplier; NOT sampled from a running game",
+  "additional_checks": "item removal, temporary effects/duplicate presence, monotonic tears growth, cap-breaking, cache/continue/player isolation, actual uploaded Stats+ validators/Middleware",
+  "self_consistency_regression": "existing4096 inventory combinations and1201 curve samples; these alone do not verify native game rules",
+  "preserved_old_files": 169,
+  "syntax": "10 Lua files passed; XML/ANM2 parsed",
+  "in_game_validation": "NOT RUN. Exact reported0.27 and full native synergy behavior not independently reproduced in game."
+}

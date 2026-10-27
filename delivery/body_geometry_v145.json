@@ -1,0 +1,302 @@
+{
+  "walk_frames": [
+    {
+      "animation": "WalkDown",
+      "frame": 0,
+      "atlas_xy": [
+        0,
+        0
+      ]
+    },
+    {
+      "animation": "WalkDown",
+      "frame": 1,
+      "atlas_xy": [
+        128,
+        0
+      ]
+    },
+    {
+      "animation": "WalkDown",
+      "frame": 2,
+      "atlas_xy": [
+        256,
+        0
+      ]
+    },
+    {
+      "animation": "WalkDown",
+      "frame": 3,
+      "atlas_xy": [
+        384,
+        0
+      ]
+    },
+    {
+      "animation": "WalkDown",
+      "frame": 4,
+      "atlas_xy": [
+        512,
+        0
+      ]
+    },
+    {
+      "animation": "WalkDown",
+      "frame": 5,
+      "atlas_xy": [
+        640,
+        0
+      ]
+    },
+    {
+      "animation": "WalkDown",
+      "frame": 6,
+      "atlas_xy": [
+        768,
+        0
+      ]
+    },
+    {
+      "animation": "WalkDown",
+      "frame": 7,
+      "atlas_xy": [
+        896,
+        0
+      ]
+    },
+    {
+      "animation": "WalkDown",
+      "frame": 8,
+      "atlas_xy": [
+        0,
+        128
+      ]
+    },
+    {
+      "animation": "WalkDown",
+      "frame": 9,
+      "atlas_xy": [
+        128,
+        128
+      ]
+    },
+    {
+      "animation": "WalkRight",
+      "frame": 0,
+      "atlas_xy": [
+        0,
+        256
+      ]
+    },
+    {
+      "animation": "WalkRight",
+      "frame": 1,
+      "atlas_xy": [
+        128,
+        256
+      ]
+    },
+    {
+      "animation": "WalkRight",
+      "frame": 2,
+      "atlas_xy": [
+        256,
+        256
+      ]
+    },
+    {
+      "animation": "WalkRight",
+      "frame": 3,
+      "atlas_xy": [
+        384,
+        256
+      ]
+    },
+    {
+      "animation": "WalkRight",
+      "frame": 4,
+      "atlas_xy": [
+        512,
+        256
+      ]
+    },
+    {
+      "animation": "WalkRight",
+      "frame": 5,
+      "atlas_xy": [
+        640,
+        256
+      ]
+    },
+    {
+      "animation": "WalkRight",
+      "frame": 6,
+      "atlas_xy": [
+        768,
+        256
+      ]
+    },
+    {
+      "animation": "WalkRight",
+      "frame": 7,
+      "atlas_xy": [
+        896,
+        256
+      ]
+    },
+    {
+      "animation": "WalkRight",
+      "frame": 8,
+      "atlas_xy": [
+        0,
+        384
+      ]
+    },
+    {
+      "animation": "WalkRight",
+      "frame": 9,
+      "atlas_xy": [
+        128,
+        384
+      ]
+    },
+    {
+      "animation": "WalkUp",
+      "frame": 0,
+      "atlas_xy": [
+        0,
+        512
+      ]
+    },
+    {
+      "animation": "WalkUp",
+      "frame": 1,
+      "atlas_xy": [
+        128,
+        512
+      ]
+    },
+    {
+      "animation": "WalkUp",
+      "frame": 2,
+      "atlas_xy": [
+        256,
+        512
+      ]
+    },
+    {
+      "animation": "WalkUp",
+      "frame": 3,
+      "atlas_xy": [
+        384,
+        512
+      ]
+    },
+    {
+      "animation": "WalkUp",
+      "frame": 4,
+      "atlas_xy": [
+        512,
+        512
+      ]
+    },
+    {
+      "animation": "WalkUp",
+      "frame": 5,
+      "atlas_xy": [
+        640,
+        512
+      ]
+    },
+    {
+      "animation": "WalkUp",
+      "frame": 6,
+      "atlas_xy": [
+        768,
+        512
+      ]
+    },
+    {
+      "animation": "WalkUp",
+      "frame": 7,
+      "atlas_xy": [
+        896,
+        512
+      ]
+    },
+    {
+      "animation": "WalkUp",
+      "frame": 8,
+      "atlas_xy": [
+        0,
+        640
+      ]
+    },
+    {
+      "animation": "WalkUp",
+      "frame": 9,
+      "atlas_xy": [
+        128,
+        640
+      ]
+    }
+  ],
+  "head_normalization": [
+    {
+      "cell": 2,
+      "before_bbox": [
+        2,
+        4,
+        126,
+        116
+      ],
+      "after_size": [
+        114,
+        103
+      ],
+      "bottom_anchor": 116
+    },
+    {
+      "cell": 3,
+      "before_bbox": [
+        1,
+        4,
+        127,
+        116
+      ],
+      "after_size": [
+        116,
+        103
+      ],
+      "bottom_anchor": 116
+    },
+    {
+      "cell": 4,
+      "before_bbox": [
+        2,
+        4,
+        125,
+        113
+      ],
+      "after_size": [
+        116,
+        103
+      ],
+      "bottom_anchor": 116
+    },
+    {
+      "cell": 5,
+      "before_bbox": [
+        2,
+        4,
+        125,
+        113
+      ],
+      "after_size": [
+        116,
+        103
+      ],
+      "bottom_anchor": 116
+    }
+  ]
+}

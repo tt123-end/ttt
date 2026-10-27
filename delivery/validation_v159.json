@@ -1,0 +1,12 @@
+{
+  "character": "Tainted Hunter only",
+  "damage_multiplier": 0.75,
+  "initial_displayed_damage": 2.625,
+  "projectile_multiplier_of_displayed_damage": 8,
+  "initial_projectile_damage": 21,
+  "stats_plus": "Actual uploaded validators and Middleware class: x0.75; composition with x2 yields x1.5; other player/character unchanged",
+  "cache_checks": "Initial stats, item damage5.5 ->4.125, repeated refresh, continue, other character isolation passed using existing harness",
+  "unchanged_files": 166,
+  "syntax": "10 Lua files passed",
+  "in_game_validation": "NOT RUN; game callbacks simulated locally, uploaded Stats+ validators/Middleware executed"
+}

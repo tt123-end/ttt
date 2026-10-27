@@ -1,0 +1,16 @@
+{
+  "xml_anm2_parse": "passed",
+  "animation_count": 38,
+  "local_frame_crop_checks": 441,
+  "directional_face_pixel_equality": "passed",
+  "root_eye_nulls_triggers_animation_lengths": "unchanged; held-item Y anchors moved up 7.5 units",
+  "pickup_hurt_independent_head_scale": "passed",
+  "lua_5_4_syntax": "4 files passed",
+  "adapter_mock": "init, legacy upgrade, no frame resets, normal transition, foreign animation preservation, four-way aim stationary/moving, overlay retention and special animation exclusion passed",
+  "regular_hunter_gameplay_and_resources": "unchanged",
+  "in_game_validation": "NOT RUN: game is on user Windows machine",
+  "normal_pose_native_height_previous": 31.75,
+  "normal_pose_native_height_current": 39.25,
+  "death_pose": "single unified artwork; final crop centered on x=128 and grounded at y=224; frame offsets x=0,y=2",
+  "body": "rounded torso and short arms; front body atlas width <=74 pixels"
+}

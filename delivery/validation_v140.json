@@ -1,0 +1,15 @@
+{
+  "native_body_footprint": "18x13 instead of 18x20; 30 gait alpha masks exactly match reference geometry",
+  "standing_arm_placement": "reference short-arm mask; no elongated arm rectangles",
+  "v139_final_corpse": "pixel-identical",
+  "xml_anm2_parse": "passed",
+  "animation_count": 38,
+  "local_frame_crop_checks": 441,
+  "directional_face_pixel_equality": "passed",
+  "root_eye_nulls_triggers_animation_lengths": "unchanged; held-item Y anchors moved down 3 units with head",
+  "pickup_hurt_independent_head_scale": "passed",
+  "lua_5_4_syntax": "4 files passed",
+  "adapter_mock": "init, legacy upgrade, no frame resets, normal transition, foreign animation preservation, four-way aim stationary/moving, overlay retention and special animation exclusion passed",
+  "regular_hunter_gameplay_and_resources": "unchanged",
+  "in_game_validation": "NOT RUN: game is on user Windows machine"
+}

@@ -1,0 +1,15 @@
+{
+  "approved_body_silhouette": "both entire body/detail sheets retain identical alpha byte-for-byte; native torso, arm, foot silhouette/spacing unchanged",
+  "body_frame_geometry": "120 walk/held/dress frames unchanged; head frames, all pivots, crops, scales, positions and timing preserved",
+  "native_dark_outline_pixels_checked": 5676,
+  "materials": "upper chest ivory wraps, bare tan belly, ivory hand and ankle patches; no green body pixels",
+  "front_cape": "separate hanging green panels; empty center opening down to hem, no semicircular bottom bridge",
+  "back_cape": "WalkUp and PickupWalkUp cloth now in clothing layer3 ABOVE body/dress and BELOW head; solid torso coverage, hem ends at y94 above feet",
+  "transparent_fallback": "blank base skin and empty glow/head0 retained; duplicate-head repair unchanged",
+  "animation_names_roots_nulls_events": "38 retained",
+  "local_frame_crop_checks": 565,
+  "lua_syntax": "4 files passed",
+  "adapter_mock": "v1.47/old migration, transparent fallback, normal transition, four-way aim, special/foreign protection, overlay/collision sentinels passed",
+  "normal_Hunter_and_gameplay": "unchanged",
+  "in_game_validation": "NOT RUN: resource checks, mocks and offline compositions only"
+}

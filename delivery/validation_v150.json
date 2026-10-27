@@ -1,0 +1,73 @@
+{
+  "scope": "full front torso/arm/hand/ankle/foot RGB repaint inside approved masks, thin2-HD-pixel outlines; not just a chest patch",
+  "entire_sheet_alpha": "body and detail Alpha byte-identical to v1.49",
+  "all_frame_geometry": "every animation/frame/pivot/crop/scale/position/delay/root/null/event unchanged",
+  "limb_readability_metrics": {
+    "left_hand": {
+      "before": {
+        "opaque": 368,
+        "dark": 192,
+        "skin": 137,
+        "bandage": 51
+      },
+      "after": {
+        "opaque": 368,
+        "dark": 95,
+        "skin": 183,
+        "bandage": 77
+      }
+    },
+    "right_hand": {
+      "before": {
+        "opaque": 368,
+        "dark": 192,
+        "skin": 139,
+        "bandage": 46
+      },
+      "after": {
+        "opaque": 368,
+        "dark": 95,
+        "skin": 183,
+        "bandage": 70
+      }
+    },
+    "left_foot": {
+      "before": {
+        "opaque": 168,
+        "dark": 136,
+        "skin": 8,
+        "bandage": 24
+      },
+      "after": {
+        "opaque": 168,
+        "dark": 66,
+        "skin": 36,
+        "bandage": 45
+      }
+    },
+    "right_foot": {
+      "before": {
+        "opaque": 168,
+        "dark": 136,
+        "skin": 8,
+        "bandage": 24
+      },
+      "after": {
+        "opaque": 168,
+        "dark": 69,
+        "skin": 39,
+        "bandage": 44
+      }
+    }
+  },
+  "front_raster_silhouette": "all20 WalkDown final alpha frames identical",
+  "side_back_raster": "Left/Right/Up all20 frames each RGBA pixel-identical (60 frames)",
+  "head_capes_and_death": "PNG data, frame geometry and layers unchanged",
+  "local_frame_crop_checks": 565,
+  "transparent_fallback": "blank skin, empty glow/head0 retained",
+  "lua_syntax": "4 files passed",
+  "adapter_mock": "v1.49 migration, transparent fallback, normal transition, four-way aim, special/foreign protection, overlay/collision sentinels passed",
+  "normal_Hunter_and_gameplay": "unchanged",
+  "in_game_validation": "NOT RUN: fixed-canvas offline raster checks and mocks only",
+  "foot_material_registration": "ankle/toe RGB aligned per native reference foot marks; torso paint has fixed height, no stretch with extending foot"
+}

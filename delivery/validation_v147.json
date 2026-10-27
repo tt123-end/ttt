@@ -1,0 +1,15 @@
+{
+  "engine_fallback_regression": "players.xml tainted skin, ANM2 sheet0 and Lua ReplaceSpritesheet(0) all use the same fully transparent2048x2048 texture",
+  "reserved_glow": "all38 animations have empty glow frames and transparent sheet0",
+  "cape": "moved unchanged from glow0 to native back14",
+  "head_only_once": "ordinary head atlas only active on head4; old full-head skin excluded from ordinary base/glow/accessory/back layers",
+  "braid_bow": "reference hair bow removed; head0 accessory track empty for every animation",
+  "reference_body_preserved": "120 body/dress/held frames unchanged from v1.46; PNGs byte-identical to source",
+  "Hunter_head_art_and_positions": "unchanged from v1.46",
+  "animation_names_frame_counts_roots_events_attachments": "38 retained",
+  "local_frame_crop_checks": 565,
+  "lua_syntax": "4 files passed",
+  "adapter_mock": "transparent-skin init/upgrade v1.46, normal transition, four-way aim, overlay, foreign/special animation protection and collision sentinels passed",
+  "normal_Hunter_stats_and_gameplay": "unchanged",
+  "in_game_validation": "NOT RUN: isolated engine fallback test and offline composition only"
+}

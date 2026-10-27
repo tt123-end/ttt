@@ -1,0 +1,16 @@
+{
+  "front_HD_frames": 71,
+  "sampling": "front32x32 cells replaced by128x128 cells; crop/pivot4x, scale1/4; world size and anchor exactly equal",
+  "front_silhouette_checks": "71 HD masks equal nearest4x original masks; all original dark pixels identical",
+  "front_raster_silhouette": "all20 WalkDown frames have identical final-composite alpha on same world canvas",
+  "side_back_raster": "Left/Right/Up all20 frames each pixel-identical RGBA to v1.48 (60 frames)",
+  "front_art": "clear overlapping ivory chest strips, bare skin shading/navel; fine material detail inside approved silhouettes only",
+  "head_and_capes": "source PNGs, frame geometry, timing and layers unchanged; back cape repair preserved",
+  "animation_names_roots_nulls_events": "all38 retained",
+  "local_frame_crop_checks": 565,
+  "transparent_fallback": "blank skin and empty glow/head0 retained",
+  "lua_syntax": "4 files passed",
+  "adapter_mock": "v1.48 migration, transparent fallback, normal transition, four-way aim, special/foreign protection, overlay/collision sentinels passed",
+  "normal_Hunter_and_gameplay": "unchanged",
+  "in_game_validation": "NOT RUN: fixed-canvas offline raster checks and mocks only"
+}
