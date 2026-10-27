@@ -1,0 +1,29 @@
+{
+  "scope": "Tainted Hunter only; first stat/loadout prototype, no additional character mechanics",
+  "initial_health": "one filled red-heart container (players.xml hp=2)",
+  "starting_loadout": {
+    "collectible": "Dead Eye / 373",
+    "card": "reversed Emperor / 60",
+    "grant": "native players.xml only; no recurring Lua grants"
+  },
+  "initial_stats": {
+    "speed": 1.0,
+    "tears_before_modifier": 2.4,
+    "tears_modifier": 0.25,
+    "final_tears": 0.6,
+    "max_fire_delay": 49,
+    "damage_before_modifier": 3.5,
+    "damage_modifier": 1.5,
+    "final_damage": 5.25,
+    "shot_speed": 1.6,
+    "range_HUD": 20,
+    "TearRange": 800
+  },
+  "stats_behavior": "cache recalculation, relative native tears gains/multipliers preserved, no custom hard cap; item stat bonuses retained; no per-update stat assignment",
+  "stats_plus": "uploaded v2.1.2 validators and actual Middleware class executed; x1.5 character multiplier composed into existing damage provider; optional Tainted Hunter Tears Multiplier provider displays x0.25 when selected in Loadout; unmount/player isolation passed",
+  "continue": "recalculates stats only; does not refill hearts, re-grant Dead Eye or replace existing card",
+  "regular_hunter": "original player XML and existing mechanics unchanged",
+  "visuals": "all 106 PNG/ANM2/visual-adapter files byte-identical to v1.53",
+  "lua_syntax": "6 Lua files passed",
+  "in_game_validation": "NOT RUN. Lua engine mocks, actual uploaded Stats+ validation/middleware classes and file/XML checks only."
+}
