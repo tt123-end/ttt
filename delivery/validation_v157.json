@@ -1,0 +1,15 @@
+{
+  "rule": "one native broken heart per successful non-exempt actual red-heart HP loss; no fixed max-health cap and no manual red-container deletion",
+  "red_HP_verification": "before/after TakeDamage; soul-only, shield, immunity, cancelled and fake hits do not qualify; bone red fill counts, empty shell does not",
+  "event_counting": "one shared recursion-guarded damage reissue with reload x2; one broken heart per hit regardless of damage amount; distinct immediate hits in the same frame count separately",
+  "exclusions": "blood donation machine, devil beggar, sacrifice spikes, cursed doors, spiked chests, IV Bag, self red-heart costs, devil/payment and native no-penalty damage; source fallback for blood2/devil5/hell15/confessional17",
+  "non_exclusions": "ordinary enemy/projectile, fire, bombs, ordinary spikes outside sacrifice rooms; enemy hits in sacrifice rooms still count",
+  "deferred_damage": "short-lived accepted-hit observation with source/flags/capacity validation; cleared at new damage/payment boundary or on expiry; no general HP-loss polling penalty",
+  "native_persistence": "engine AddBrokenHearts only; init clears transient observation, never resets or re-adds actual broken hearts; native removal allowed",
+  "reload_vulnerability": "existing x2 retained even for health-payment exclusions; only added broken-heart penalty is exempted",
+  "combat_regression": "x8 panel damage, one-interval reload, x1.5 knife/hitbox, persistent residual damage, input/circle, immunity/fake/co-op/fallback tests passed",
+  "preserved_files": 160,
+  "stats_visuals_starting_loadout_regular_Hunter": "byte-identical to v1.56 except main version comment and damage-handler delegation; no numeric balance changes",
+  "lua_syntax": "9 Lua files passed",
+  "in_game_validation": "NOT RUN. Actual Lua module executed against engine-contract mocks including delayed health settlement; real source flags and native broken-heart HUD/save behavior need game verification."
+}
