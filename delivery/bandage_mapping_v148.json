@@ -1,0 +1,602 @@
+[
+  {
+    "body_crop": [
+      416,
+      32,
+      32,
+      32
+    ],
+    "direction": 0,
+    "holding": true
+  },
+  {
+    "body_crop": [
+      0,
+      32,
+      32,
+      32
+    ],
+    "direction": 0,
+    "holding": false
+  },
+  {
+    "body_crop": [
+      0,
+      64,
+      32,
+      32
+    ],
+    "direction": 1,
+    "holding": false
+  },
+  {
+    "body_crop": [
+      32,
+      64,
+      32,
+      32
+    ],
+    "direction": 1,
+    "holding": false
+  },
+  {
+    "body_crop": [
+      64,
+      64,
+      32,
+      32
+    ],
+    "direction": 1,
+    "holding": false
+  },
+  {
+    "body_crop": [
+      96,
+      64,
+      32,
+      32
+    ],
+    "direction": 1,
+    "holding": false
+  },
+  {
+    "body_crop": [
+      128,
+      64,
+      32,
+      32
+    ],
+    "direction": 1,
+    "holding": false
+  },
+  {
+    "body_crop": [
+      160,
+      64,
+      32,
+      32
+    ],
+    "direction": 1,
+    "holding": false
+  },
+  {
+    "body_crop": [
+      192,
+      64,
+      32,
+      32
+    ],
+    "direction": 1,
+    "holding": false
+  },
+  {
+    "body_crop": [
+      224,
+      64,
+      32,
+      32
+    ],
+    "direction": 1,
+    "holding": false
+  },
+  {
+    "body_crop": [
+      0,
+      96,
+      32,
+      32
+    ],
+    "direction": 1,
+    "holding": false
+  },
+  {
+    "body_crop": [
+      32,
+      96,
+      32,
+      32
+    ],
+    "direction": 1,
+    "holding": false
+  },
+  {
+    "body_crop": [
+      256,
+      208,
+      32,
+      32
+    ],
+    "direction": 2,
+    "holding": false
+  },
+  {
+    "body_crop": [
+      288,
+      208,
+      32,
+      32
+    ],
+    "direction": 2,
+    "holding": false
+  },
+  {
+    "body_crop": [
+      320,
+      208,
+      32,
+      32
+    ],
+    "direction": 2,
+    "holding": false
+  },
+  {
+    "body_crop": [
+      352,
+      208,
+      32,
+      32
+    ],
+    "direction": 2,
+    "holding": false
+  },
+  {
+    "body_crop": [
+      384,
+      208,
+      32,
+      32
+    ],
+    "direction": 2,
+    "holding": false
+  },
+  {
+    "body_crop": [
+      416,
+      208,
+      32,
+      32
+    ],
+    "direction": 2,
+    "holding": false
+  },
+  {
+    "body_crop": [
+      448,
+      208,
+      32,
+      32
+    ],
+    "direction": 2,
+    "holding": false
+  },
+  {
+    "body_crop": [
+      480,
+      208,
+      32,
+      32
+    ],
+    "direction": 2,
+    "holding": false
+  },
+  {
+    "body_crop": [
+      256,
+      240,
+      32,
+      32
+    ],
+    "direction": 2,
+    "holding": false
+  },
+  {
+    "body_crop": [
+      288,
+      240,
+      32,
+      32
+    ],
+    "direction": 2,
+    "holding": false
+  },
+  {
+    "body_crop": [
+      32,
+      32,
+      32,
+      32
+    ],
+    "direction": 0,
+    "holding": false
+  },
+  {
+    "body_crop": [
+      64,
+      32,
+      32,
+      32
+    ],
+    "direction": 0,
+    "holding": false
+  },
+  {
+    "body_crop": [
+      96,
+      32,
+      32,
+      32
+    ],
+    "direction": 0,
+    "holding": false
+  },
+  {
+    "body_crop": [
+      128,
+      32,
+      32,
+      32
+    ],
+    "direction": 0,
+    "holding": false
+  },
+  {
+    "body_crop": [
+      160,
+      32,
+      32,
+      32
+    ],
+    "direction": 0,
+    "holding": false
+  },
+  {
+    "body_crop": [
+      192,
+      32,
+      32,
+      32
+    ],
+    "direction": 0,
+    "holding": false
+  },
+  {
+    "body_crop": [
+      224,
+      32,
+      32,
+      32
+    ],
+    "direction": 0,
+    "holding": false
+  },
+  {
+    "body_crop": [
+      192,
+      0,
+      32,
+      32
+    ],
+    "direction": 0,
+    "holding": false
+  },
+  {
+    "body_crop": [
+      224,
+      0,
+      32,
+      32
+    ],
+    "direction": 0,
+    "holding": false
+  },
+  {
+    "body_crop": [
+      448,
+      32,
+      32,
+      32
+    ],
+    "direction": 0,
+    "holding": true
+  },
+  {
+    "body_crop": [
+      480,
+      32,
+      32,
+      32
+    ],
+    "direction": 0,
+    "holding": true
+  },
+  {
+    "body_crop": [
+      448,
+      0,
+      32,
+      32
+    ],
+    "direction": 0,
+    "holding": true
+  },
+  {
+    "body_crop": [
+      480,
+      0,
+      32,
+      32
+    ],
+    "direction": 0,
+    "holding": true
+  },
+  {
+    "body_crop": [
+      256,
+      32,
+      32,
+      32
+    ],
+    "direction": 0,
+    "holding": true
+  },
+  {
+    "body_crop": [
+      288,
+      32,
+      32,
+      32
+    ],
+    "direction": 0,
+    "holding": true
+  },
+  {
+    "body_crop": [
+      320,
+      32,
+      32,
+      32
+    ],
+    "direction": 0,
+    "holding": true
+  },
+  {
+    "body_crop": [
+      352,
+      32,
+      32,
+      32
+    ],
+    "direction": 0,
+    "holding": true
+  },
+  {
+    "body_crop": [
+      384,
+      32,
+      32,
+      32
+    ],
+    "direction": 0,
+    "holding": true
+  },
+  {
+    "body_crop": [
+      256,
+      64,
+      32,
+      32
+    ],
+    "direction": 1,
+    "holding": true
+  },
+  {
+    "body_crop": [
+      288,
+      64,
+      32,
+      32
+    ],
+    "direction": 1,
+    "holding": true
+  },
+  {
+    "body_crop": [
+      320,
+      64,
+      32,
+      32
+    ],
+    "direction": 1,
+    "holding": true
+  },
+  {
+    "body_crop": [
+      352,
+      64,
+      32,
+      32
+    ],
+    "direction": 1,
+    "holding": true
+  },
+  {
+    "body_crop": [
+      384,
+      64,
+      32,
+      32
+    ],
+    "direction": 1,
+    "holding": true
+  },
+  {
+    "body_crop": [
+      416,
+      64,
+      32,
+      32
+    ],
+    "direction": 1,
+    "holding": true
+  },
+  {
+    "body_crop": [
+      448,
+      64,
+      32,
+      32
+    ],
+    "direction": 1,
+    "holding": true
+  },
+  {
+    "body_crop": [
+      480,
+      64,
+      32,
+      32
+    ],
+    "direction": 1,
+    "holding": true
+  },
+  {
+    "body_crop": [
+      256,
+      96,
+      32,
+      32
+    ],
+    "direction": 1,
+    "holding": true
+  },
+  {
+    "body_crop": [
+      288,
+      96,
+      32,
+      32
+    ],
+    "direction": 1,
+    "holding": true
+  },
+  {
+    "body_crop": [
+      416,
+      272,
+      32,
+      32
+    ],
+    "direction": 2,
+    "holding": true
+  },
+  {
+    "body_crop": [
+      448,
+      272,
+      32,
+      32
+    ],
+    "direction": 2,
+    "holding": true
+  },
+  {
+    "body_crop": [
+      480,
+      272,
+      32,
+      32
+    ],
+    "direction": 2,
+    "holding": true
+  },
+  {
+    "body_crop": [
+      448,
+      240,
+      32,
+      32
+    ],
+    "direction": 2,
+    "holding": true
+  },
+  {
+    "body_crop": [
+      480,
+      240,
+      32,
+      32
+    ],
+    "direction": 2,
+    "holding": true
+  },
+  {
+    "body_crop": [
+      256,
+      272,
+      32,
+      32
+    ],
+    "direction": 2,
+    "holding": true
+  },
+  {
+    "body_crop": [
+      288,
+      272,
+      32,
+      32
+    ],
+    "direction": 2,
+    "holding": true
+  },
+  {
+    "body_crop": [
+      320,
+      272,
+      32,
+      32
+    ],
+    "direction": 2,
+    "holding": true
+  },
+  {
+    "body_crop": [
+      352,
+      272,
+      32,
+      32
+    ],
+    "direction": 2,
+    "holding": true
+  },
+  {
+    "body_crop": [
+      384,
+      272,
+      32,
+      32
+    ],
+    "direction": 2,
+    "holding": true
+  }
+]
