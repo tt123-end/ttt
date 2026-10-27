@@ -1,0 +1,52 @@
+[
+  {
+    "animation": "WalkLeft",
+    "body_source_layer": "1",
+    "dress_source_layer": "0",
+    "mode": "original frame pixels and geometry, uniform120%"
+  },
+  {
+    "animation": "WalkUp",
+    "body_source_layer": "1",
+    "dress_source_layer": "0",
+    "mode": "original frame pixels and geometry, uniform120%"
+  },
+  {
+    "animation": "WalkRight",
+    "body_source_layer": "1",
+    "dress_source_layer": "0",
+    "mode": "original frame pixels and geometry, uniform120%"
+  },
+  {
+    "animation": "WalkDown",
+    "body_source_layer": "1",
+    "dress_source_layer": "0",
+    "mode": "original frame pixels and geometry, uniform120%"
+  },
+  {
+    "animation": "Glitch",
+    "body_source_layer": "1",
+    "dress_source_layer": "0",
+    "mode": "original frame pixels and geometry, uniform120%"
+  },
+  {
+    "animation": "PickupWalkDown",
+    "body_source_layer": "12",
+    "mode": "original integrated held torso/arms/legs, uniform120%"
+  },
+  {
+    "animation": "PickupWalkLeft",
+    "body_source_layer": "12",
+    "mode": "original integrated held torso/arms/legs, uniform120%"
+  },
+  {
+    "animation": "PickupWalkUp",
+    "body_source_layer": "12",
+    "mode": "original integrated held torso/arms/legs, uniform120%"
+  },
+  {
+    "animation": "PickupWalkRight",
+    "body_source_layer": "12",
+    "mode": "original integrated held torso/arms/legs, uniform120%"
+  }
+]
