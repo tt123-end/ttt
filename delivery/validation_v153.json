@@ -1,0 +1,16 @@
+{
+  "pickup": "original v1.52 head expression pixels retained; torso behind head, raised forearms in front, head lowered toward original attachment",
+  "original_body_pixels": "10 held cells partitioned exactly; no source RGBA/material/anatomy changes",
+  "body_only_action_frames_RGBA_exact": 97,
+  "unchanged_other_action_frames_RGBA": 702,
+  "neck_dark_span_preview_pixels": {
+    "before": 7,
+    "after": 3
+  },
+  "animations_timing_events_item_anchors_collision_gameplay": "unchanged",
+  "local_frame_crop_checks": 600,
+  "lua_syntax": "4 files passed",
+  "transformation_regression": "Actual v1.52 adapter reproduced missing-base failure after same-filename reset; v1.53 passed form exit, Lost-null exit, player-type return, null/collectible effect exit, item removal, delayed engine clear, repeated cycles, two-player isolation, foreign/death/coop and visibility guards",
+  "bounded_recovery": "One full ANM2/layer restore plus two graphics-only passes; no animation restart on retries and no steady-state graphics reload",
+  "in_game_validation": "NOT RUN. User videos inspected; offline PNG/ANM2 compositing and Lua engine mocks only."
+}
