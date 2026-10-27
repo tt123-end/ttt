@@ -1,0 +1,22 @@
+{
+  "scope": "EID character descriptions only; no changes to gameplay, values, item/heart rules, visuals or Stats+",
+  "EID_source": "user-uploaded external item descriptions_836319872.zip; public addCharacterInfo API",
+  "locales": [
+    "zh_cn",
+    "en_us"
+  ],
+  "traits": "800% displayed damage; reload every attack for one interval; double damage taken during reload; one broken heart per actual non-payment red-heart hit with stated exclusions; Polyphemus-style excess-damage carry; reduced negative tears penalties and soft-cap reference0.6",
+  "real_EID_functions_executed": [
+    "CreateDescriptionTableIfMissing",
+    "addCharacterInfo",
+    "getDescriptionEntry",
+    "getPlayerName",
+    "getLanguage",
+    "ItemReminderHandleCharacterInfo"
+  ],
+  "registration_tests": "absent/partial/late EID, once per instance, replacement instance, invalid id, both locales, automatic language and actual Item Reminder dispatch",
+  "regular_Hunter": "existing mod_compat.lua byte-identical; independent normal/tainted IDs and normal text confirmed",
+  "preserved_old_files": 164,
+  "lua_syntax": "10 Lua files passed",
+  "in_game_validation": "NOT RUN. Relevant functions from the actual uploaded EID were executed with minimal game stubs; game font rendering/layout not tested."
+}
