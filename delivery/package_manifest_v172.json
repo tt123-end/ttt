@@ -1,0 +1,11 @@
+{
+  "version": "1.72",
+  "baseline": "v1.71 clean",
+  "files": 64,
+  "zip_bytes": 3503547,
+  "zip_crc": "PASS",
+  "byte_comparison": "PASS",
+  "historical_files_in_mod": false,
+  "lua_files": 16,
+  "fix": "Complete negative-tears baseline/cap math and selected cached weapon-type delay isolation; damage/attacks/UI unchanged"
+}
