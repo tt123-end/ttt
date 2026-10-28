@@ -1,0 +1,27 @@
+{
+  "version": "1.70",
+  "baseline": "v1.69 clean; no historical resources reintroduced",
+  "syntax_xml_anm2": "PASS",
+  "visual_assets_byte_identical": 43,
+  "stable_modules_preserved": [
+    "inventory/cursed-eye self-damage/door teleport",
+    "sword",
+    "combat/reload/HUD",
+    "red-container/bone/broken-heart rules",
+    "normal character mechanics",
+    "all PNG/ANM2 resources"
+  ],
+  "numeric_contracts": "PASS: ten native stat replacements; varied native penalty factors; seven group subsets;20/20 group cancellation and Polyphemus cancellation of20/20; Dr+Ipecac exception; temporary effect count/cooldown restored; config masks and item blocks restored on success/error; no inventory/health/weapon cache mutation",
+  "combat_contracts": "PASS: Ipecac and Dr+Ipecac knives/explosions2D+40; standalone Dr original4D knife and2D+30 explosion; Polyphemus real piercing/root/descendant/update flags; prior Dead Eye, Chocolate, C Section, sword, Technology and curse compatibility",
+  "stats_plus": "PASS: real uploaded validation and middleware; native damage multiplier computables + all new rules; native cap computable correction and stat restoration; other characters unchanged",
+  "eid": "PASS: real uploaded character/item APIs; bilingual values/group exceptions/explosion formula/no compensation text",
+  "removed_mechanism": "Old tears penalty probe/calculation modules deleted; no0.6 floor or combined forced0.6 cap; native tears2.4 then character x0.2, unlisted penalty contract demonstrated below0.6",
+  "numeric_implementation": "Selected effects masked only during synchronous numeric recalculation outside cache callback; item config cache flags quieted to prevent weapon rebuilds; owned items never removed, TemporaryEffect objects/cooldowns retained; native masks restored before any gameplay resumes",
+  "official_api": "Checked against official REPENTOGON1.1.3 stat-stage, spoof/block and player APIs",
+  "game_runtime": "NOT RUN; no Isaac executable. These are interface/state/math contracts, not proof of native game behavior",
+  "limits": [
+    "Requires REPENTOGON stat stages/block APIs; ordinary no-REPENTOGON mode is not this release target",
+    "Native weapons, temporary effects, Rock Bottom history locks and third-party mods that synchronously change inventories during cache callbacks need in-game verification",
+    "Soft-cap display is derived from native stat stages; exotic pre-multiplier affine modifiers outside the changed list need in-game validation"
+  ]
+}

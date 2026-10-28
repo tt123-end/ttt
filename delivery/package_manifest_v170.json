@@ -1,0 +1,14 @@
+{
+  "version": "1.70",
+  "baseline": "v1.69 clean",
+  "files": 64,
+  "zip_bytes": 3502738,
+  "zip_crc": "PASS",
+  "byte_comparison": "PASS",
+  "historical_files_in_mod": false,
+  "lua_files": 16,
+  "removed_modules": [
+    "tainted_hunter_tears.lua",
+    "tainted_hunter_tears_probe.lua"
+  ]
+}
