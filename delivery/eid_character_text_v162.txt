@@ -1,0 +1,23 @@
+里猎手 / EID 角色特性（中文）
+
+单发泪弹造成角色面板攻击力400%的伤害
+每次攻击后进入换弹，持续1个攻击间隔
+换弹期间受到的伤害翻倍
+非主动付血型伤害实际扣到心之容器内的红心时，每次+1碎心
+骨心外壳及其中填充的红心受伤不触发碎心
+献血机、恶魔乞丐、献祭刺、诅咒房刺门等不触发碎心
+巨人独眼式伪穿透：击杀后保留剩余伤害继续飞行
+受到的负射速倍率惩罚减轻
+普通射速软上限由1趋近0.6，不保底实际射速
+
+TAINTED HUNTER / EID character traits (English)
+
+Each tear deals 400% of the character's displayed damage
+Reload after every attack for one attack interval
+Damage taken is doubled while reloading
+Gain 1 Broken Heart per non-payment hit that actually removes Red Hearts from regular Heart Containers
+Bone Heart shells and the Red Hearts inside them do not trigger this penalty
+Blood donations, Devil Beggars, sacrifice spikes, Curse Room doors and similar health payments do not trigger this penalty
+Polyphemus-style pseudo-piercing: killing blows retain excess damage and keep flying
+Reduced penalties from negative fire-rate multipliers
+Ordinary tears soft cap approaches 0.6 from 1; actual tears are not floored

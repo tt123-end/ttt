@@ -1,0 +1,12 @@
+{
+  "scope": "Tainted Hunter ordinary-container red HP only; no Broken Hearts on Bone Heart red fill or shells",
+  "root_cause": "GetHearts includes bone fill; old code compared total red HP without excluding it",
+  "health_projection": "min(GetHearts(), pre-hit GetMaxHearts()); GetMaxHearts excludes bone containers",
+  "old_v161_regression": "Confirmed expected failure on bone-only red fill; same scenario passes in v162",
+  "tests": "original37 parameterized damage/exemption scenarios plus dedicated bone-only/partial/multiple/mixed containers, filled/empty bones, reload x2, actual container red loss, immediate/deferred event clearing, payments/shields/old-event schema, combat regression",
+  "EID": "Chinese and English updated; original uploaded EID registration/Item Reminder/language functions executed",
+  "unchanged": "all v161 stats (damagex1.2, tearsx0.2, shotx4, range12), native-cap sampler, Stats+, visual assets/adapters, regular Hunter, reload vulnerability and payment exemptions",
+  "preserved_old_files": 172,
+  "lua_syntax": "11 files passed; XML/ANM2 parsed",
+  "in_game_validation": "NOT RUN. Lua engine-contract mocks; native API definitions checked in IsaacDocs and regular-vs-bone fill formula checked against existing Revelations health splitting code."
+}
