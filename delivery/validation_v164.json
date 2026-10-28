@@ -1,0 +1,32 @@
+{
+  "version": "1.64",
+  "workbook_decision_rows": 1497,
+  "custom_decision_rows": 39,
+  "lua_syntax_files": 16,
+  "xml_anm2": "PASS",
+  "integrated_compatibility": "PASS: deterministic engine-contract model, not game runtime",
+  "stats_plus": "PASS: uploaded cap function/display, validators and multiplier middleware; baseline210 monotonic cases; explicit Dr Fetus+Ipecac cap0.6",
+  "damage": "PASS: prior red-heart/payment/shield cases plus dedicated bone-container regressions; damage module byte-identical to v162",
+  "eid": "PASS: uploaded character API and item modifier/collectible registration API;25 localized item overrides",
+  "visual_assets_preserved": 107,
+  "game_runtime": "NOT RUN; no Isaac executable available",
+  "known_limits": [
+    "Rock Bottom: no safe exact readonly native-cap API in vanilla; sampling disabled and last safe cap reference retained, Stats+ may show UNKNOWN",
+    "Godhead aura attribution, native fetal knives/spin collision, active/auxiliary source timing and complex combinations need in-game validation",
+    "Default rows generally delegate native behavior through shared adapters; this is not721 individually game-tested items"
+  ],
+  "targeted_regressions": {
+    "v163": "Confirmed failures: discarded native tears trigger a miss reset; target HP restoration loses hit attribution; actual Trisagion child laser remains unscaled",
+    "v164": "All pass;240 stationary-target hit volleys, parasite all-miss/any-hit, invalid/friendly contacts, ordinary tear entities/range, fetal-bomb suppression and manual-bomb isolation, actual light-laser hit4x including first-hit/child/DOT/aura isolation, attack-time Spirit Sword spins on both Birthright rounds, native charge-option restore and reload sprite rendering"
+  },
+  "values": {
+    "Dr_Fetus_knife": "4*panel (normal knife)",
+    "Dr_Fetus_explosion": "2*panel+30",
+    "Ipecac_knife": "1*panel",
+    "Ipecac_explosion": "1*panel",
+    "Dr_Fetus_plus_Ipecac": "Existing explicit pair retained:1*panel knife,1*panel+30 blast, cap0.6 and explosion immunity",
+    "Trisagion": "4*native actual light hit; no carrier4x duplication",
+    "Spirit_Sword": "Charged spin per actual ready attack; full-health native beam retained"
+  },
+  "native_charge_UI": "Vanilla uses the global Options.ChargeBars switch while Tainted Hunter is in an instant scripted weapon mode; prior value restored on mode/death/run/exit/unload. Reload sprite independent. In co-op, other native charge wheels are also hidden during that mode; no per-player native render hook in vanilla."
+}
