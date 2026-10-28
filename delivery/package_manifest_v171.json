@@ -1,0 +1,11 @@
+{
+  "version": "1.71",
+  "baseline": "v1.70 clean",
+  "files": 64,
+  "zip_bytes": 3502954,
+  "zip_crc": "PASS",
+  "byte_comparison": "PASS",
+  "historical_files_in_mod": false,
+  "lua_files": 16,
+  "fix": "Two xpcall error handlers no longer depend on unavailable debug.traceback; numeric/gameplay rules unchanged"
+}
