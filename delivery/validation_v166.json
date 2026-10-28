@@ -1,0 +1,39 @@
+{
+  "version": "1.66",
+  "workbook_decision_rows": 1497,
+  "custom_decision_rows": 39,
+  "lua_syntax_files": 17,
+  "xml_anm2": "PASS",
+  "integrated_compatibility": "PASS: deterministic engine-contract model, not game runtime",
+  "stats_plus": "PASS: uploaded cap function/display, validators and multiplier middleware; baseline210 monotonic cases; explicit Dr Fetus+Ipecac cap0.6",
+  "damage": "PASS: prior red-heart/payment/shield cases plus dedicated bone-container regressions; damage module byte-identical to v162",
+  "eid": "PASS: uploaded character API and item modifier/collectible registration API;25 localized item overrides",
+  "visual_assets_preserved": 107,
+  "game_runtime": "NOT RUN. Lua contracts/native-cache model and official interface source, not Isaac execution. Verify native spin animation and light damage in game.",
+  "known_limits": [
+    "Rock Bottom: no safe exact readonly native-cap API in vanilla; sampling disabled and last safe cap reference retained, Stats+ may show UNKNOWN",
+    "Godhead aura attribution, native fetal knives/spin collision, active/auxiliary source timing and complex combinations need in-game validation",
+    "Default rows generally delegate native behavior through shared adapters; this is not721 individually game-tested items"
+  ],
+  "targeted_regressions": {
+    "v165": "Confirmed native-base model fails: cached BaseDamage remains unscaled even when later source-based wrappers change damage",
+    "v166": "PASS: immutable native base initialized16x, opaque/missing hit sources, runtime CollisionDamage overwritten, native child ratio, normal sheet and effects restored on success/error; original REPENTOGON spin-state calls and original visible/collidable knife; legacy subtype4 and new native-parent hitboxes preserved; no fake fallback"
+  },
+  "values": {
+    "Trisagion": "16x native base at tear creation; no second hit-time multiplication for these projectiles",
+    "C_Section": "Unchanged accepted v165 actual-hit quarter of v164",
+    "Spirit_Sword": "Original native EntityKnife spin state/renderer/collision via REPENTOGON; no copied sprites/manual damage; native full-health beam retained",
+    "Chocolate_Milk": "Unchanged accepted v165 replacement passive and chamber rules",
+    "Dead_Eye": "Unchanged accepted v165 probabilistic all-miss group handling"
+  },
+  "preservation": "tainted_hunter_compat_items.lua, combat, damage, stats, Stats+, charge UI, content/items.xml, visual resources remain byte-identical to v165; normal main.lua unchanged except version header",
+  "sword_requirements": "SetIsSpinAttack/SetIsSwinging verified in official REPENTOGON1.0.12 source (Repentance1.7.9b.J835) and1.1.3 source (Repentance+). Runtime API checks are guarded. No addon => no fake slash, retain beam.",
+  "factory_scope": "For Trisagion only, provide the scaled damage to native FireTear synchronously, restore player.Damage before return/effect restore; no EvaluateItems/cache/frame advance while scaled. Read-only BaseDamage audit recorded by hunterdiag.",
+  "native_charge_UI": "Unchanged v165; original Chocolate is replaced and does not need the global charge wheel switch.",
+  "installation_sources": [
+    "https://github.com/TeamREPENTOGON/REPENTOGON/releases/tag/1.0.12",
+    "https://github.com/TeamREPENTOGON/REPENTOGON/blob/1.0.12/docs/docs/install.md",
+    "https://github.com/TeamREPENTOGON/Launcher/releases/latest",
+    "https://github.com/TeamREPENTOGON/REPENTOGON/blob/main/docs/docs/install_zh.md"
+  ]
+}
