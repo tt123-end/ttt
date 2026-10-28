@@ -1,0 +1,19 @@
+{
+  "version": "1.68",
+  "target": "User now runs Repentance+ with REPENTOGON; APIs checked against official1.1.3 source",
+  "syntax_xml_anm2": "PASS",
+  "visual_assets_byte_identical": 107,
+  "accepted_mechanics": "PASS: prior chamber, grouped probabilistic Dead Eye, Chocolate replacement, quarter C Section, Stats+ and container-red/bone/payment exclusions",
+  "light_damage": "8x native actual light damage; half of user-confirmed16x path; exact collision/ExtraSource attribution unchanged",
+  "technology": "400% panel per primary Technology hit, with existing Chocolate curve when owned; actual damage override before observers, including Source=player and flags0; native straight one-hit laser and chamber gate; Brimstone/Tech X excluded",
+  "sword": "Actual primary Spirit Sword Weapon is charged, armed and released in scoped native player updates; only native POST_FIRE_SWORD spin entities accepted; no FireKnife, sprite replacement, Play(Spin), manual sweep damage or fake render",
+  "curse": "Accepted POST damage including all self-damage queues a native positive-seed random-room teleport; false damage/shields/Black Candle/non-reload/death guarded; cursed-door pending survives door room transition and waits for stable room; broken-heart exclusions unchanged",
+  "official_api_check": "PASS:1.1.3 callbacks and Weapon getters/setters source verified",
+  "local_regressions": "PASS: native weapon release contract, input/FireDelay/chamber restoration, native spin capture and hitbox retention; self-damage flags, curse-door room change, stable transition, source lifetime; actual laser8x/400% and source isolation; real uploaded EID/Stats+ APIs",
+  "game_runtime": "NOT RUN; no Isaac executable available. User confirmed v167 light damage working; new sword release/teleport/Tech changes still need in-game verification",
+  "limits": [
+    "Real native sword release scheduling and final animation must be confirmed in Isaac",
+    "If another item replaces the primary Spirit Sword weapon, the module reports unavailable instead of fabricating a slash; complex weapon-priority synergies need in-game validation",
+    "Rock Bottom and other previously documented native cap/source limitations remain"
+  ]
+}
