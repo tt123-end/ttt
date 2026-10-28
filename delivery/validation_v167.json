@@ -1,0 +1,20 @@
+{
+  "version": "1.67",
+  "lua_syntax": "PASS",
+  "xml_anm2": "PASS",
+  "prior_mechanics": "PASS: integrated mock regression including accepted Dead Eye, Chocolate Milk and C Section; unchanged damage/stats/visual modules",
+  "stats_plus_eid": "PASS: uploaded actual integration APIs and Stats numeric regression",
+  "reported_entity_error": "Reproduced with strict generic Entity callback proxy; fixed via ToTear conversion",
+  "curse_teleport": "PASS: borrowed EntityRef expiry contract, post-update-only one teleport, charge cleared before native damage, Black Candle/shield/dead/room-transition guards",
+  "light_damage": "PASS: exact REPENTOGON collision attribution for source=player and flags=0; one Damage table override before cancelling observers;16x native incoming damage; no sheet/base mutation, unrelated lasers and same-frame hits unaffected",
+  "sword": "PASS: original Spin started on real EntityKnife with original native spin/swing flags and collision; no generic knife Shoot, copied sprites, render overlay or scripted damage",
+  "old_v166_regressions": "Confirmed failures in all four targeted contracts",
+  "game_runtime": "NOT RUN; no Isaac executable. Contract tests and verified official REPENTOGON1.0.12 APIs are not in-game animation/damage/crash verification",
+  "version_diagnostic": "hunterdiag prints Hunter v1.67, REPENTOGON presence, incoming/applied native light damage, native sword animation/frame",
+  "limits": [
+    "Native original spin final animation and collision must be confirmed in Isaac",
+    "The exact reported Cursed Eye native crash cannot be reproduced without Isaac or a crash dump; unsafe retained callback source and update-time room transition were removed",
+    "Non-REPENTOGON light source attribution retains conservative older fallback; reliable precise light-hit attribution uses REPENTOGON",
+    "Prior Rock Bottom cap sampling limits and complex third-party synergies remain"
+  ]
+}
