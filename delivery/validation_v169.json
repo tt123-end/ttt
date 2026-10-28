@@ -1,0 +1,17 @@
+{
+  "version": "1.69",
+  "target": "Repentance+ with REPENTOGON; interface sources checked against1.1.3",
+  "syntax_xml_anm2": "PASS",
+  "visual_assets_byte_identical": 107,
+  "scope": "Only sword lifecycle/priming-hitbox protection, light8x->4x, matching EID and version/diagnostic metadata changed",
+  "preservation": "PASS: inventory/Cursed Eye self-damage and door teleport module, damage/broken hearts, stats, Stats+, combat/reload, charge UI and content/items.xml byte-identical to v168; all other compatibility source verified by normalized full-file comparison",
+  "sword": "Input arm/release survives pre-cached input and late native Weapon::Fire; do not clear armed charge at POST_PLAYER; advance/restore at POST_UPDATE; prime/protect native main sword, detect its actual Spin state without requiring another factory callback; native art/collision only, no simulated sweep",
+  "light": "4x actual native light hit damage; half of v1688x; confirmed collision/ExtraSource chain preserved",
+  "regressions": "PASS: v168 direct premature charge clearing and broader input/weapon lifecycle contracts fail, v169 passes; reused sword/prime damage suppression/genuine spin/collision/chamber/input/gate checks plus prior full mechanics, actual uploaded Stats+/EID and heart exclusion suites",
+  "user_runtime_feedback": "v168 diagnostic: native weapon released but no spin callback observed; no runtime trace of exact engine input/weapon callback order was provided",
+  "game_runtime": "NOT RUN; no Isaac executable available. Full-tick contract testing does not prove native animation works in the game",
+  "limits": [
+    "Native original spin still requires in-game confirmation; diagnostic now includes native weapon calls, input polls and sword callback counts",
+    "Native weapon-priority combinations and previously documented cap/source limits unchanged"
+  ]
+}
