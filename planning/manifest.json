@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-28",
+  "baseline": "猎手 v1.62（原版 Repentance，无 REPENTOGON）",
+  "scope": "Original Repentance collectibles; inherited/independent damage and special mechanics included; supplementary trinkets/cards/pills/forms; not all possible combinations or other mods/Rep+ changes",
+  "collectible_index_count": 721,
+  "focused_unique_collectibles": 556,
+  "core_unique_collectibles": 350,
+  "individual_custom_recommendations": 230,
+  "sheet_rows": {
+    "00_全局规则": 12,
+    "01_主武器与节奏": 42,
+    "02_泪弹与命中特效": 94,
+    "03_附加攻击与继承": 38,
+    "04_特殊机制": 176,
+    "05_关键组合": 40,
+    "06_饰品卡牌变身": 168,
+    "07_独立输出补充": 206,
+    "08_全道具索引": 721,
+    "09_用户补充": 20
+  },
+  "combination_count": 40,
+  "user_plan_columns": "I/J initially blank; K=待填写 with dropdown; no user decisions preselected",
+  "verification": "openpyxl reopen; all721 valid IDs exactly once in full index; unique focused IDs; no missing recommendations; blank user fields; filters/freeze panes/dropdowns; no formulas/macros; CSV UTF-8 BOM/ZIP CRC passed",
+  "evidence": "uploaded EID ab+/Repentance merged descriptions, isaacscript name/ID enumeration, v1.62 Lua static inspection",
+  "game_verification": "Not run. Current compatibility observations are static risks, recommendations are unimplemented proposals."
+}
