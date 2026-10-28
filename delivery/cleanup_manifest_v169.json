@@ -1,0 +1,435 @@
+{
+  "version": "1.69",
+  "edition": "clean package; no gameplay/UI changes",
+  "source_files": 200,
+  "packaged_files": 65,
+  "removed_files": 136,
+  "source_uncompressed_bytes": 18954424,
+  "clean_uncompressed_bytes": 4183938,
+  "retained_runtime_byte_identical": true,
+  "all_lua_preserved": true,
+  "custom_asset_dependencies": "PASS: referenced XML/ANM2/spritesheet and Lua assets retained; builtin dependencies allowlisted",
+  "retained": [
+    "content/costumes2.xml",
+    "content/gfx/charactermenu.anm2",
+    "content/gfx/charactermenualt.anm2",
+    "content/gfx/characterportraits.anm2",
+    "content/gfx/characterportraitsalt.anm2",
+    "content/gfx/hunter_b_select_v134.png",
+    "content/gfx/revolver_select_v130.png",
+    "content/items.xml",
+    "content/players.xml",
+    "main.lua",
+    "metadata.xml",
+    "mod_compat.lua",
+    "resources/gfx/001.000_player_hunter_b_v153.anm2",
+    "resources/gfx/characters/costumes/character_hunter_b_v136.png",
+    "resources/gfx/characters/costumes/character_revolver_silent_blank.png",
+    "resources/gfx/characters/costumes/hunter_b_arms_v145.png",
+    "resources/gfx/characters/costumes/hunter_b_body_layers_v153.png",
+    "resources/gfx/characters/costumes/hunter_b_body_v145.png",
+    "resources/gfx/characters/costumes/hunter_b_cape_v148.png",
+    "resources/gfx/characters/costumes/hunter_b_death_v141.png",
+    "resources/gfx/characters/costumes/hunter_b_engine_blank_v147.png",
+    "resources/gfx/characters/costumes/hunter_b_front_reference_detail_v151.png",
+    "resources/gfx/characters/costumes/hunter_b_heads_v152.png",
+    "resources/gfx/characters/silent_specialist_marker.anm2",
+    "resources/gfx/chargebar.anm2",
+    "resources/gfx/chargebar.png",
+    "resources/gfx/revolver_ammo.anm2",
+    "resources/gfx/revolver_ammo.png",
+    "resources/gfx/revolver_bullet.anm2",
+    "resources/gfx/revolver_knife_hd.png",
+    "resources/gfx/silent_action_v124.anm2",
+    "resources/gfx/silent_actions_v124.png",
+    "resources/gfx/silent_body_v124.anm2",
+    "resources/gfx/silent_dance_v133.anm2",
+    "resources/gfx/silent_dance_v133.png",
+    "resources/gfx/silent_death_v127.anm2",
+    "resources/gfx/silent_death_v127.png",
+    "resources/gfx/silent_head_v124.anm2",
+    "resources/gfx/silent_heads_v124.png",
+    "resources/gfx/silent_hurt_v127.anm2",
+    "resources/gfx/silent_hurt_v127.png",
+    "resources/gfx/silent_idle_v125.anm2",
+    "resources/gfx/silent_idle_v125.png",
+    "resources/gfx/silent_walk_v124.png",
+    "resources/gfx/tainted_hunter_knife_hd_v155.png",
+    "resources/gfx/tainted_hunter_knife_v155.anm2",
+    "resources/gfx/ui/boss/playername_hunter.png",
+    "resources/gfx/ui/stage/playerportrait_hunter_b.png",
+    "resources/gfx/ui/stage/playerportrait_hunter_crying.png",
+    "silent_visuals.lua",
+    "tainted_hunter_charge_ui.lua",
+    "tainted_hunter_combat.lua",
+    "tainted_hunter_compat.lua",
+    "tainted_hunter_compat_eid.lua",
+    "tainted_hunter_compat_items.lua",
+    "tainted_hunter_damage.lua",
+    "tainted_hunter_eid.lua",
+    "tainted_hunter_rules.lua",
+    "tainted_hunter_stats.lua",
+    "tainted_hunter_stats_plus.lua",
+    "tainted_hunter_sword.lua",
+    "tainted_hunter_tears.lua",
+    "tainted_hunter_tears_probe.lua",
+    "tainted_hunter_visuals.lua"
+  ],
+  "removed": [
+    "README_涓枃.txt",
+    "REPENTOGON_安装说明.md",
+    "body_geometry_v140.json",
+    "body_geometry_v142.json",
+    "body_geometry_v143.json",
+    "content/gfx/revolver_select_v128.png",
+    "content/gfx/revolver_select_v129.png",
+    "hand_geometry_v141.json",
+    "resources/gfx/001.000_player_hunter_b.anm2",
+    "resources/gfx/001.000_player_hunter_b_v135.anm2",
+    "resources/gfx/001.000_player_hunter_b_v135_final.anm2",
+    "resources/gfx/001.000_player_hunter_b_v136.anm2",
+    "resources/gfx/001.000_player_hunter_b_v137.anm2",
+    "resources/gfx/001.000_player_hunter_b_v138.anm2",
+    "resources/gfx/001.000_player_hunter_b_v139.anm2",
+    "resources/gfx/001.000_player_hunter_b_v140.anm2",
+    "resources/gfx/001.000_player_hunter_b_v141.anm2",
+    "resources/gfx/001.000_player_hunter_b_v142.anm2",
+    "resources/gfx/001.000_player_hunter_b_v143.anm2",
+    "resources/gfx/001.000_player_hunter_b_v144.anm2",
+    "resources/gfx/001.000_player_hunter_b_v145.anm2",
+    "resources/gfx/001.000_player_hunter_b_v146.anm2",
+    "resources/gfx/001.000_player_hunter_b_v147.anm2",
+    "resources/gfx/001.000_player_hunter_b_v148.anm2",
+    "resources/gfx/001.000_player_hunter_b_v149.anm2",
+    "resources/gfx/001.000_player_hunter_b_v150.anm2",
+    "resources/gfx/001.000_player_hunter_b_v151.anm2",
+    "resources/gfx/001.000_player_hunter_b_v152.anm2",
+    "resources/gfx/characters/costumes/character_hunter_b_native.png",
+    "resources/gfx/characters/costumes/character_hunter_b_v135.png",
+    "resources/gfx/characters/costumes/character_hunter_b_v135_facefix.png",
+    "resources/gfx/characters/costumes/character_hunter_b_v135_final.png",
+    "resources/gfx/characters/costumes/character_revolver_silent.png",
+    "resources/gfx/characters/costumes/character_revolver_silent_hd.png",
+    "resources/gfx/characters/costumes/hunter_b_arms_v143.png",
+    "resources/gfx/characters/costumes/hunter_b_arms_v144.png",
+    "resources/gfx/characters/costumes/hunter_b_bandage_body_v148.png",
+    "resources/gfx/characters/costumes/hunter_b_bandage_detail_v148.png",
+    "resources/gfx/characters/costumes/hunter_b_body_v137.png",
+    "resources/gfx/characters/costumes/hunter_b_body_v138.png",
+    "resources/gfx/characters/costumes/hunter_b_body_v139.png",
+    "resources/gfx/characters/costumes/hunter_b_body_v140.png",
+    "resources/gfx/characters/costumes/hunter_b_body_v141.png",
+    "resources/gfx/characters/costumes/hunter_b_body_v142.png",
+    "resources/gfx/characters/costumes/hunter_b_body_v143.png",
+    "resources/gfx/characters/costumes/hunter_b_body_v144.png",
+    "resources/gfx/characters/costumes/hunter_b_cape_v142.png",
+    "resources/gfx/characters/costumes/hunter_b_cape_v143.png",
+    "resources/gfx/characters/costumes/hunter_b_cape_v144.png",
+    "resources/gfx/characters/costumes/hunter_b_cape_v145.png",
+    "resources/gfx/characters/costumes/hunter_b_death_v138.png",
+    "resources/gfx/characters/costumes/hunter_b_death_v139.png",
+    "resources/gfx/characters/costumes/hunter_b_death_v140.png",
+    "resources/gfx/characters/costumes/hunter_b_front_body_hd_v149.png",
+    "resources/gfx/characters/costumes/hunter_b_front_body_painted_v150.png",
+    "resources/gfx/characters/costumes/hunter_b_front_detail_hd_v149.png",
+    "resources/gfx/characters/costumes/hunter_b_front_detail_painted_v150.png",
+    "resources/gfx/characters/costumes/hunter_b_front_reference_bandage_v151.png",
+    "resources/gfx/characters/costumes/hunter_b_heads_v137.png",
+    "resources/gfx/characters/costumes/hunter_b_heads_v141.png",
+    "resources/gfx/characters/costumes/hunter_b_heads_v142.png",
+    "resources/gfx/characters/costumes/hunter_b_heads_v145.png",
+    "resources/gfx/characters/costumes/hunter_b_reference_body_v146.png",
+    "resources/gfx/characters/costumes/hunter_b_reference_dress_v146.png",
+    "resources/gfx/characters/costumes/hunter_b_reference_hand_v146.png",
+    "resources/gfx/characters/revolver_silent_hd.anm2",
+    "resources/gfx/revolver_bullet.png",
+    "resources/gfx/revolver_last_round.anm2",
+    "resources/gfx/revolver_last_round.png",
+    "resources/gfx/ui/stage/playerportrait_revolver_silent.png",
+    "validation_v137.json",
+    "validation_v138.json",
+    "validation_v139.json",
+    "validation_v140.json",
+    "validation_v141.json",
+    "validation_v142.json",
+    "validation_v143.json",
+    "validation_v144.json",
+    "validation_v145.json",
+    "validation_v146.json",
+    "validation_v147.json",
+    "validation_v148.json",
+    "validation_v149.json",
+    "validation_v150.json",
+    "validation_v151.json",
+    "validation_v152.json",
+    "validation_v153.json",
+    "validation_v154.json",
+    "validation_v155.json",
+    "validation_v156.json",
+    "validation_v157.json",
+    "validation_v158.json",
+    "validation_v159.json",
+    "validation_v160.json",
+    "validation_v161.json",
+    "validation_v162.json",
+    "validation_v163.json",
+    "validation_v164.json",
+    "validation_v165.json",
+    "validation_v166.json",
+    "validation_v167.json",
+    "validation_v168.json",
+    "validation_v169.json",
+    "修复说明_v1.37.txt",
+    "修复说明_v1.38.txt",
+    "修复说明_v1.39.txt",
+    "修复说明_v1.40.txt",
+    "修复说明_v1.41.txt",
+    "修复说明_v1.42.txt",
+    "修复说明_v1.43.txt",
+    "修复说明_v1.44.txt",
+    "修复说明_v1.45.txt",
+    "修复说明_v1.46.txt",
+    "修复说明_v1.47.txt",
+    "修复说明_v1.48.txt",
+    "修复说明_v1.49.txt",
+    "修复说明_v1.50.txt",
+    "修复说明_v1.51.txt",
+    "修复说明_v1.52.txt",
+    "修复说明_v1.53.txt",
+    "修复说明_v1.54.txt",
+    "修复说明_v1.55.txt",
+    "修复说明_v1.56.txt",
+    "修复说明_v1.57.txt",
+    "修复说明_v1.58.txt",
+    "修复说明_v1.59.txt",
+    "修复说明_v1.60.txt",
+    "修复说明_v1.61.txt",
+    "修复说明_v1.62.txt",
+    "修复说明_v1.64.txt",
+    "修复说明_v1.65.txt",
+    "修复说明_v1.66.txt",
+    "修复说明_v1.67.txt",
+    "修复说明_v1.68.txt",
+    "修复说明_v1.69.txt",
+    "兼容说明_v1.63.txt"
+  ],
+  "dependency_reasons": {
+    "main.lua": [
+      "current runtime program"
+    ],
+    "metadata.xml": [
+      "current runtime program"
+    ],
+    "mod_compat.lua": [
+      "current runtime program"
+    ],
+    "silent_visuals.lua": [
+      "current runtime program"
+    ],
+    "tainted_hunter_charge_ui.lua": [
+      "current runtime program"
+    ],
+    "tainted_hunter_combat.lua": [
+      "current runtime program"
+    ],
+    "tainted_hunter_compat.lua": [
+      "current runtime program"
+    ],
+    "tainted_hunter_compat_eid.lua": [
+      "current runtime program"
+    ],
+    "tainted_hunter_compat_items.lua": [
+      "current runtime program"
+    ],
+    "tainted_hunter_damage.lua": [
+      "current runtime program"
+    ],
+    "tainted_hunter_eid.lua": [
+      "current runtime program"
+    ],
+    "tainted_hunter_rules.lua": [
+      "current runtime program"
+    ],
+    "tainted_hunter_stats.lua": [
+      "current runtime program"
+    ],
+    "tainted_hunter_stats_plus.lua": [
+      "current runtime program"
+    ],
+    "tainted_hunter_sword.lua": [
+      "current runtime program"
+    ],
+    "tainted_hunter_tears.lua": [
+      "current runtime program"
+    ],
+    "tainted_hunter_tears_probe.lua": [
+      "current runtime program"
+    ],
+    "tainted_hunter_visuals.lua": [
+      "current runtime program"
+    ],
+    "content/costumes2.xml": [
+      "engine-discovered content definition"
+    ],
+    "content/gfx/charactermenu.anm2": [
+      "engine-discovered content definition"
+    ],
+    "content/gfx/charactermenualt.anm2": [
+      "engine-discovered content definition"
+    ],
+    "content/gfx/characterportraits.anm2": [
+      "engine-discovered content definition"
+    ],
+    "content/gfx/characterportraitsalt.anm2": [
+      "engine-discovered content definition"
+    ],
+    "content/items.xml": [
+      "engine-discovered content definition"
+    ],
+    "content/players.xml": [
+      "engine-discovered content definition"
+    ],
+    "resources/gfx/revolver_ammo.anm2": [
+      "main.lua:28"
+    ],
+    "resources/gfx/revolver_bullet.anm2": [
+      "main.lua:69"
+    ],
+    "resources/gfx/chargebar.anm2": [
+      "main.lua:77",
+      "tainted_hunter_combat.lua:8"
+    ],
+    "resources/gfx/characters/silent_specialist_marker.anm2": [
+      "mod_compat.lua:5",
+      "registered costume"
+    ],
+    "resources/gfx/001.000_player_hunter_b_v153.anm2": [
+      "tainted_hunter_visuals.lua:26"
+    ],
+    "resources/gfx/characters/costumes/hunter_b_engine_blank_v147.png": [
+      "tainted_hunter_visuals.lua:27",
+      "spritesheet declared in resources/gfx/001.000_player_hunter_b_v153.anm2",
+      "player skin definition"
+    ],
+    "resources/gfx/characters/costumes/character_revolver_silent_blank.png": [
+      "tainted_hunter_visuals.lua:28",
+      "spritesheet declared in resources/gfx/characters/silent_specialist_marker.anm2",
+      "player skin definition"
+    ],
+    "resources/gfx/characters/costumes/hunter_b_body_layers_v153.png": [
+      "tainted_hunter_visuals.lua:33",
+      "tainted_hunter_visuals.lua:41",
+      "spritesheet declared in resources/gfx/001.000_player_hunter_b_v153.anm2"
+    ],
+    "resources/gfx/characters/costumes/hunter_b_front_reference_detail_v151.png": [
+      "tainted_hunter_visuals.lua:34",
+      "spritesheet declared in resources/gfx/001.000_player_hunter_b_v153.anm2"
+    ],
+    "resources/gfx/characters/costumes/hunter_b_cape_v148.png": [
+      "tainted_hunter_visuals.lua:35",
+      "tainted_hunter_visuals.lua:40",
+      "spritesheet declared in resources/gfx/001.000_player_hunter_b_v153.anm2"
+    ],
+    "resources/gfx/characters/costumes/hunter_b_heads_v152.png": [
+      "tainted_hunter_visuals.lua:36",
+      "spritesheet declared in resources/gfx/001.000_player_hunter_b_v153.anm2"
+    ],
+    "resources/gfx/characters/costumes/character_hunter_b_v136.png": [
+      "tainted_hunter_visuals.lua:38",
+      "spritesheet declared in resources/gfx/001.000_player_hunter_b_v153.anm2"
+    ],
+    "resources/gfx/characters/costumes/hunter_b_death_v141.png": [
+      "tainted_hunter_visuals.lua:42",
+      "spritesheet declared in resources/gfx/001.000_player_hunter_b_v153.anm2"
+    ],
+    "resources/gfx/tainted_hunter_knife_v155.anm2": [
+      "tainted_hunter_combat.lua:7"
+    ],
+    "resources/gfx/silent_body_v124.anm2": [
+      "silent_visuals.lua:37"
+    ],
+    "resources/gfx/silent_idle_v125.anm2": [
+      "silent_visuals.lua:39"
+    ],
+    "resources/gfx/silent_head_v124.anm2": [
+      "silent_visuals.lua:41"
+    ],
+    "resources/gfx/silent_action_v124.anm2": [
+      "silent_visuals.lua:43"
+    ],
+    "resources/gfx/silent_hurt_v127.anm2": [
+      "silent_visuals.lua:45"
+    ],
+    "resources/gfx/silent_death_v127.anm2": [
+      "silent_visuals.lua:47"
+    ],
+    "resources/gfx/silent_dance_v133.anm2": [
+      "silent_visuals.lua:49"
+    ],
+    "resources/gfx/silent_dance_v133.png": [
+      "spritesheet declared in resources/gfx/silent_dance_v133.anm2"
+    ],
+    "resources/gfx/silent_death_v127.png": [
+      "spritesheet declared in resources/gfx/silent_death_v127.anm2"
+    ],
+    "resources/gfx/silent_hurt_v127.png": [
+      "spritesheet declared in resources/gfx/silent_hurt_v127.anm2"
+    ],
+    "resources/gfx/silent_actions_v124.png": [
+      "spritesheet declared in resources/gfx/silent_action_v124.anm2"
+    ],
+    "resources/gfx/silent_heads_v124.png": [
+      "spritesheet declared in resources/gfx/silent_head_v124.anm2"
+    ],
+    "resources/gfx/silent_idle_v125.png": [
+      "spritesheet declared in resources/gfx/silent_idle_v125.anm2"
+    ],
+    "resources/gfx/silent_walk_v124.png": [
+      "spritesheet declared in resources/gfx/silent_body_v124.anm2"
+    ],
+    "resources/gfx/tainted_hunter_knife_hd_v155.png": [
+      "spritesheet declared in resources/gfx/tainted_hunter_knife_v155.anm2"
+    ],
+    "resources/gfx/characters/costumes/hunter_b_body_v145.png": [
+      "spritesheet declared in resources/gfx/001.000_player_hunter_b_v153.anm2"
+    ],
+    "resources/gfx/characters/costumes/hunter_b_arms_v145.png": [
+      "spritesheet declared in resources/gfx/001.000_player_hunter_b_v153.anm2"
+    ],
+    "resources/gfx/chargebar.png": [
+      "spritesheet declared in resources/gfx/chargebar.anm2"
+    ],
+    "resources/gfx/revolver_knife_hd.png": [
+      "spritesheet declared in resources/gfx/revolver_bullet.anm2"
+    ],
+    "resources/gfx/revolver_ammo.png": [
+      "spritesheet declared in resources/gfx/revolver_ammo.anm2"
+    ],
+    "resources/gfx/ui/stage/playerportrait_hunter_crying.png": [
+      "player portrait definition",
+      "player bigportrait definition"
+    ],
+    "resources/gfx/ui/boss/playername_hunter.png": [
+      "player nameimage definition",
+      "player nameimage definition"
+    ],
+    "resources/gfx/ui/stage/playerportrait_hunter_b.png": [
+      "player portrait definition",
+      "player bigportrait definition"
+    ],
+    "content/gfx/hunter_b_select_v134.png": [
+      "spritesheet declared in content/gfx/characterportraitsalt.anm2",
+      "spritesheet declared in content/gfx/charactermenualt.anm2"
+    ],
+    "content/gfx/revolver_select_v130.png": [
+      "spritesheet declared in content/gfx/characterportraits.anm2",
+      "spritesheet declared in content/gfx/charactermenu.anm2"
+    ]
+  },
+  "builtin_dependencies": [
+    "gfx/001.000_player.anm2",
+    "gfx/Characters/costumes/ghost.png",
+    "gfx/items/collectibles/collectibles_069_chocolatemilk.png",
+    "gfx/items/collectibles/collectibles_154_chemicalpeel.png"
+  ]
+}
